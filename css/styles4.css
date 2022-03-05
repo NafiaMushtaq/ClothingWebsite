@@ -1,0 +1,470 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("../img/bg1.jpg");
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+main {
+    width: 100%;
+    margin: 0px;
+    padding-top: 62px;
+}
+
+.header {
+    top: 0;
+    padding-left: 39%;
+    padding-right: 39%;
+}
+
+.Unstitched-div-h1 {
+    padding: 20px 0px 0px;
+}
+
+.Unstitched-h1 {
+    text-align: center;
+    font-family: Helvetica Verdana, sans-serif;
+    font-size: 40px;
+    color: black;
+    padding: 0;
+    margin: 0;
+}
+
+.Unstitched1 {
+    display: flex;
+    margin-right: -15px;
+    margin-left: -15px;
+    column-count: 3;
+    column-gap: 100px;
+    padding-bottom: 20px;
+}
+
+.Unstitched {
+    width: 90%;
+    margin-left: 66px;
+    padding: 30PX 0PX;
+}
+
+.Unstitched-div1 {
+    background: white;
+    width: 100%;
+}
+
+.Unstitched-img {
+    width: 100%;
+}
+
+.Unstitched-div2 {
+    padding: 20PX 35PX;
+}
+
+.Unstitched-div3 {
+    padding: 20px 0px;
+}
+
+.Unstitched-h5 {
+    font-size: 15px;
+    color: rgba(83, 164, 159, 0.619);
+    margin: 0;
+}
+
+.Unstitched-p {
+    font-size: 15px;
+    line-height: 20px;
+    color: #222;
+}
+
+.Unstitched-h5,
+.Unstitched-p {
+    font-family: cursive;
+    line-height: 1.428;
+    letter-spacing: .5px;
+}
+
+.Unstitched-btn {
+    padding: 0px 60px;
+    font-family: cursive;
+    background: none;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 20px;
+    color: rgba(156, 164, 83, 0.619);
+    text-transform: uppercase;
+    text-decoration: underline;
+    box-shadow: none;
+    background: transparent;
+    border: 0 none;
+}
+
+.Unstitched-btn:hover {
+    background: rgb(168, 164, 164);
+    box-shadow: 0 0 10px rgba(168, 164, 164, 1);
+    opacity: 1;
+    border: none;
+}
+
+.login1,
+.signup1 {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.login,
+.signup {
+    position: fixed;
+    float: center;
+    left: 40%;
+    z-index: 1;
+    width: 20%;
+    top: 9%;
+    right: 20%;
+}
+
+.loginform,
+.signupform {
+    padding: 15px;
+    width: 120%;
+    background: rgba(59, 59, 59, 0.639);
+    border-radius: 8px;
+    box-sizing: border-box;
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.8);
+}
+
+.loginimg,
+.signupimg {
+    padding: 0px 0px;
+    width: 90px;
+    overflow: hidden;
+    bottom: 100%;
+    left: 40%;
+    right: 35%;
+    position: absolute;
+}
+
+.loginimg {
+    top: -16%;
+}
+
+.signupimg {
+    top: -9%;
+}
+
+.loginh4,
+.signuph4 {
+    margin: 17% 4% 3%;
+    width: 95%;
+    text-align: center;
+    font-size: 20px;
+}
+
+.loginform input[type=button]:hover,
+.loginform input[type=submit]:hover,
+.signupform input[type=button]:hover,
+.signupform input[type=submit]:hover {
+    background: rgb(168, 164, 164);
+    box-shadow: 0 0 10px rgba(168, 164, 164, 1);
+    opacity: 1;
+    border: none;
+}
+
+.loginform input[type=text],
+.loginform input[type=password],
+.signupform input[type=text],
+.signupform input[type=password],
+.signupform input[type=email] {
+    width: 97%;
+    height: 20%;
+    background: rgba(220, 220, 220, .5);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1), 0 2px 2px 0 rgba(0, 0, 0, 0.1);
+    font-style: italic;
+    font-family: cursive;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    margin: 0 auto;
+    overflow: hidden;
+    color: white;
+    padding: 5px 12px;
+}
+
+.loginform input[type=text]:hover,
+.loginform input[type=password]:hover,
+.signupform input[type=text]:hover,
+.signupform input[type=password]:hover,
+.signupform input[type=email]:hover,
+.loginform input[type=text]:focus,
+.loginform input[type=password]:focus,
+.signupform input[type=text]:focus,
+.signupform input[type=password]:focus,
+.signupform input[type=email]:focus {
+    background-color: transparent;
+    border-bottom: 2px gray solid;
+}
+
+.loginform input[type=button],
+.signupform input[type=button] {
+    padding: 8px 0px;
+    width: 30%;
+}
+
+.loginform input[type=submit],
+.signupform input[type=submit] {
+    padding: 8px 0px;
+    width: 75%;
+}
+
+.loginform input[type=button],
+.loginform input[type=submit],
+.signupform input[type=button],
+.signupform input[type=submit] {
+    font-size: 75%;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+    cursor: pointer;
+    background: black;
+}
+
+.signupp,
+.loginn {
+    float: right;
+    cursor: pointer;
+    width: 25%;
+    padding: 0px 0px 12px 0px;
+}
+
+.loginh4,
+.loginform input[type=button],
+.loginform input[type=submit],
+.signupp,
+.signuph4,
+.signupform input[type=button],
+.signupform input[type=submit],
+.loginn {
+    font-family: cursive;
+    font-variant: small-caps;
+    color: white;
+    letter-spacing: 2px;
+}
+
+span .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.signupp:hover,
+.loginn:hover,
+span .close:hover,
+span .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.error {
+    color: red;
+    float: right;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+}
+
+.navul {
+    list-style: none;
+    background-image: linear-gradient(to right, rgba(62, 167, 160, 0.619), rgba(156, 164, 83, 0.619));
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1), 0 2px 2px 0 rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    opacity: 0.7;
+}
+
+#navli {
+    display: inline-block;
+    margin: 3px 8px;
+    float: left;
+}
+
+.nava {
+    text-decoration: none;
+    color: white;
+    font-family: cursive;
+    font-variant: small-caps;
+    text-align: center;
+    padding: 14px 20px;
+    display: inline-block;
+}
+
+@media (max-width: 821px) {
+    .nava {
+        padding: 14px 0px;
+    }
+}
+
+.img {
+    padding: 4px 10px;
+}
+
+#navli:hover,
+.dropdownmenu:hover {
+    background: rgba(156, 164, 83, 0.619);
+    border-radius: 50% 70%;
+}
+
+.dropdown {
+    margin: 2px;
+    padding: 2px;
+    display: none;
+    min-width: 160px;
+    position: absolute;
+    background: rgba(164, 106, 164, 0.5);
+    border-radius: 8px;
+}
+
+.dropdownmenu {
+    list-style: none;
+    padding: 14px 20px;
+}
+
+.dropdownmenua {
+    color: white;
+    font-family: cursive;
+    font-variant: small-caps;
+    text-align: left;
+    display: block;
+    text-decoration: none;
+    border-bottom: 1px solid gray;
+    line-height: 170%;
+}
+
+nav .navli4:hover .dropdown,
+nav .navli5:hover .dropdown,
+nav .navli6:hover .dropdown {
+    display: block;
+}
+
+.footer {
+    background-color: #efefef;
+    margin: 0px 15px;
+    padding: 20px 0px;
+}
+
+@media (min-width: 1200px) {
+    .footer-div {
+        max-width: 1140px;
+    }
+}
+
+@media (min-width: 992px) {
+    .footer-div {
+        max-width: 960px;
+    }
+}
+
+@media (min-width: 768px) {
+    .footer-div {
+        max-width: 720px;
+    }
+}
+
+@media (min-width: 576px) {
+    .footer-div {
+        max-width: 540px;
+    }
+}
+
+.footer-div {
+    max-width: 1140px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: 80px;
+}
+
+.footer-row1 {
+    display: flex;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.footer-div1 {
+    padding-left: 80px;
+}
+
+.footer-ul {
+    padding-left: 0;
+    list-style: none;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.footer-h5 {
+    margin-bottom: .5rem;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.2;
+    color: inherit;
+    margin-top: 0;
+    font-size: 1.25rem;
+}
+
+.footer-ul-a {
+    text-decoration: none;
+}
+
+.footer-div2 {
+    position: relative;
+    width: 171%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: 129px;
+}
+
+.footer-address {
+    font-size: 80%;
+    margin: 0px;
+    color: #0f0f0f;
+    font-style: normal;
+    line-height: 1.6;
+}
+
+.footer-div3 {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.footer-row2 {
+    text-align: center;
+}
+
+.footer-div4 {
+    flex: 0 0 auto;
+    width: auto;
+    max-width: none;
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}

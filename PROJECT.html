@@ -1,0 +1,90 @@
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+    <title>
+        PROJECT
+    </title>
+    <link rel="stylesheet" href="css/styles.css">
+
+    <script>
+    </script>
+</head>
+
+<body>
+    <nav>
+        <div class="navbar">
+
+            <img src="img/login.png" id="img" class="img" onclick="openloginform()">
+            <img src="img/signup.png" class="img" onclick="opensignupform()">
+
+        </div>
+    </nav>
+    <main>
+        <div class="shop">
+            <a href="project1.html">
+                <input type="button" value="SHOP NOW" class="btn" name="BUTTON">
+            </a>
+        </div>
+        <div id="login1" class="login1">
+            <div class="login" id="login">
+
+                <form action="login.php" method="post" class="loginform" method="post" onsubmit="return LoginForm()">
+                    <span><a class="close" onclick="closeloginform()">&times;</a></span> >
+                    <img src="img/login.png" class="loginimg">
+                    <h4 class="loginh4"> LOGIN FORM</h4>
+                    <input type="text" size="20" name="name" id="name" placeholder="Username">
+                    <span id="errorname" class="error"></span>
+                    <br><br>
+                    <input type="password" size="20" name="Pass" id="Password" placeholder="Password">
+                    <span id="errorpassword" class="error"></span>
+                    <br><br>
+                    <input type="submit" class="button1" value="LOG IN" name="LOGIN">
+                    <br><br>
+                    <input type="button" class="button2" value="CLOSE" name="close" onclick="closeloginform()">
+                    <label class="signupp" onclick="signupform()"> Sign Up?<label>
+            
+            </form>
+        </div>
+    </div>
+<div id="signup1" class="signup1">
+        <div class="signup" id="signup">
+
+            <form action="signup.php" method="post" class="signupform" method="post" onsubmit="return SignupForm()">
+                <span><a class="close" onclick="closesignupform()">&times;</a></span>
+                <img src="img/signup.png" class="signupimg">
+             
+                <h4 class="signuph4"> SIGN UP FORM</h4>
+                <input type="text" size="20" name="fname" id="fname" placeholder="First Name" onkeyup="uppercase()" >
+                <span id="errorfname" class="error"></span>
+                <br><br>
+                <input type="text" size="20" name="lname" id="lname" placeholder="Last Name" onkeyup="uppercase()" >
+                <span id="errorlname" class="error"></span>
+                <br><br>
+                <input type="text" size="20" name="name" id="uname" placeholder="Username" >
+                <span id="erroruname" class="error"></span>
+                <br><br>
+                <input type="email" size="20" name="email" id="email" placeholder="Email" >
+                <span id="erroremail" class="error"></span>
+                <br><br>
+                <input type="password" size="20" name="Pass" id="Pass" placeholder="Password" >
+                <span id="errorPass" class="error"></span>
+                <br><br>
+                <input type="password" size="20" name="RePass" id="RePass" placeholder="Retype Password" >
+                <span id="errorRePass" class="error"></span>
+                <br><br>
+                <input type="submit" class="button1" value="SIGN UP" name="signup">
+                <br><br>
+                <input type="button" class="button2" value="CLOSE" name="close" onclick="closesignupform()">
+                <label class="loginn" onclick="loginform()"> Log In? </label>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <script src="js/script.js"></script>
+</body>
+
+
+
+</html>

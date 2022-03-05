@@ -1,0 +1,226 @@
+body {
+    background-image: url("../img/bg2.jpg");
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.navbar {
+    float: right;
+    top: 1%;
+    right: 1%;
+    position: fixed;
+    opacity: 0.8;
+}
+
+.img {
+    padding: 4px 10px;
+}
+
+.img:hover {
+    background-color: rgba(98, 91, 91, 0.2);
+    border-radius: 50% 70%;
+}
+
+main {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.btn {
+    float: right;
+    position: fixed;
+    right: 5%;
+    top: 45%;
+    display: block;
+    margin-top: 0 auto;
+    width: 200px;
+    height: 60px;
+    background: #000;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    line-height: 42px;
+    border-radius: 2px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+    border-radius: 8px;
+    font-family: cursive;
+}
+
+.btn:hover,
+.loginform input[type=button]:hover,
+.loginform input[type=submit]:hover,
+.signupform input[type=button]:hover,
+.signupform input[type=submit]:hover {
+    background: rgb(168, 164, 164);
+    box-shadow: 0 0 10px rgba(168, 164, 164, 1);
+    opacity: 1;
+    border: none;
+}
+
+.login1,
+.signup1 {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.login,
+.signup {
+    position: fixed;
+    float: center;
+    left: 40%;
+    z-index: 1;
+    width: 20%;
+    top: 9%;
+    right: 20%;
+}
+
+.loginform,
+.signupform {
+    padding: 15px;
+    width: 120%;
+    background: rgba(59, 59, 59, 0.639);
+    border-radius: 8px;
+    box-sizing: border-box;
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.8);
+}
+
+.loginimg,
+.signupimg {
+    padding: 0px 0px;
+    width: 90px;
+    overflow: hidden;
+    bottom: 100%;
+    left: 40%;
+    right: 35%;
+    position: absolute;
+}
+
+.loginimg {
+    top: -16%;
+}
+
+.signupimg {
+    top: -9%;
+}
+
+.loginh4,
+.signuph4 {
+    margin: 17% 4% 3%;
+    width: 95%;
+    text-align: center;
+    font-size: 20px;
+}
+
+.loginform input[type=text],
+.loginform input[type=password],
+.signupform input[type=text],
+.signupform input[type=password],
+.signupform input[type=email] {
+    width: 97%;
+    height: 20%;
+    background: rgba(220, 220, 220, .5);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1), 0 2px 2px 0 rgba(0, 0, 0, 0.1);
+    font-style: italic;
+    font-family: cursive;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    margin: 0 auto;
+    overflow: hidden;
+    color: white;
+    padding: 5px 12px;
+}
+
+.loginform input[type=text]:hover,
+.loginform input[type=password]:hover,
+.signupform input[type=text]:hover,
+.signupform input[type=password]:hover,
+.signupform input[type=email]:hover,
+.loginform input[type=text]:focus,
+.loginform input[type=password]:focus,
+.signupform input[type=text]:focus,
+.signupform input[type=password]:focus,
+.signupform input[type=email]:focus {
+    background-color: transparent;
+    border-bottom: 2px gray solid;
+}
+
+.loginform input[type=button],
+.signupform input[type=button] {
+    padding: 8px 0px;
+    width: 30%;
+}
+
+.loginform input[type=submit],
+.signupform input[type=submit] {
+    padding: 8px 0px;
+    width: 75%;
+}
+
+.loginform input[type=button],
+.loginform input[type=submit],
+.signupform input[type=button],
+.signupform input[type=submit] {
+    font-size: 75%;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+    cursor: pointer;
+    background: black;
+}
+
+.signupp,
+.loginn {
+    float: right;
+    cursor: pointer;
+    width: 25%;
+    padding: 0px 0px 12px 0px;
+}
+
+.loginh4,
+.loginform input[type=button],
+.loginform input[type=submit],
+.signupp,
+.signuph4,
+.signupform input[type=button],
+.signupform input[type=submit],
+.loginn {
+    font-family: cursive;
+    font-variant: small-caps;
+    color: white;
+    letter-spacing: 2px;
+}
+
+span .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.signupp:hover,
+.loginn:hover,
+span .close:hover,
+span .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.error {
+    color: red;
+    float: right;
+}

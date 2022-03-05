@@ -1,0 +1,583 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("../img/bg1.jpg");
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+main {
+    width: 100%;
+    margin: 0px;
+}
+
+.slider {
+    max-width: 100%;
+    padding-top: 62px;
+}
+
+.slides {
+    display: none;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.btnright {
+    float: right;
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    width: 3%;
+    height: 7%;
+    border-radius: 2px;
+    border: none;
+    transform: translateY(-550%);
+}
+
+.btnleft {
+    float: left;
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    width: 3%;
+    height: 7%;
+    border-radius: 2px;
+    border: none;
+    transform: translateY(-550%);
+}
+
+.btnleft:hover,
+.btnright:hover {
+    background: rgba(255, 255, 255, 0.7);
+    color: black;
+    border: none;
+}
+
+.loginform input[type=button]:hover,
+.loginform input[type=submit]:hover,
+.signupform input[type=button]:hover,
+.signupform input[type=submit]:hover {
+    background: rgb(168, 164, 164);
+    box-shadow: 0 0 10px rgba(168, 164, 164, 1);
+    opacity: 1;
+    border: none;
+}
+
+.women-div-h1 {
+    padding: 20px 0px 0px;
+}
+
+.women-h1 {
+    text-align: center;
+    font-family: cursive;
+    font-size: 40px;
+    color: rgb(156, 164, 83);
+    padding: 0;
+    margin: 0;
+}
+
+.women {
+    column-count: 3;
+    padding: 20px 95px 20px 74px;
+    column-gap: 100px;
+}
+
+.womenwear {
+    background: white;
+    width: 110%;
+}
+
+.womenwear-img {
+    width: 100%;
+}
+
+.womenwear-div {
+    padding: 30PX 35PX;
+}
+
+.womenwear-h4 {
+    font-size: 20px;
+    color: rgba(83, 164, 159, 0.619);
+    margin: 0;
+}
+
+.womenwear-p {
+    font-size: 15px;
+    line-height: 20px;
+    color: #222;
+}
+
+.womenwear-h4,
+.womenwear-p {
+    font-family: cursive;
+    line-height: 1.428;
+    letter-spacing: .5px;
+}
+
+.womenwear-a {
+    padding: 0px 60px;
+    font-family: cursive;
+    background: none;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    color: rgba(156, 164, 83, 0.619);
+    text-transform: uppercase;
+    text-decoration: underline;
+    box-shadow: none;
+    background: transparent;
+    border: 0 none;
+}
+
+.kids {
+    max-height: auto;
+    background: url("../img/ki.jpg");
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    padding: 170px 0px 0px 0px;
+}
+
+.kids-div {
+    top: 90%;
+    left: 50%;
+    padding: 30PX 35PX;
+    margin: 50px auto 0px auto;
+    width: 34%;
+    height: 40%;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 5px solid #ddd;
+    background-attachment: fixed;
+}
+
+.Kids-h1 {
+    text-align: center;
+    font-family: cursive;
+    font-size: 40px;
+    color: rgb(156, 164, 83);
+    padding: 0;
+    margin: 0;
+}
+
+.Kids-p {
+    line-height: 20px;
+    color: #222;
+}
+
+.Kids-a {
+    text-decoration: none;
+    margin: 40PX 0PX;
+    transform: translateX(76%);
+    padding: 6px 35px;
+    display: block;
+    margin-top: 0 auto;
+    width: 100px;
+    height: 40px;
+    background: #000;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    line-height: 42px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+    border-radius: 8px;
+    font-family: cursive;
+}
+
+.Kids-a:hover {
+    background: rgb(168, 164, 164);
+    box-shadow: 0 0 10px rgba(168, 164, 164, 1);
+    opacity: 1;
+    border: none;
+}
+
+.Kids-h1,
+.Kids-p {
+    font-family: cursive;
+    line-height: 1.428;
+    letter-spacing: .5px;
+}
+
+.men-div-h1 {
+    padding: 20px 0px 0px;
+}
+
+.men-h1 {
+    text-align: center;
+    font-family: cursive;
+    font-size: 40px;
+    color: rgb(156, 164, 83);
+    padding: 0;
+    margin: 0;
+}
+
+.men {
+    column-count: 3;
+    padding: 20px 0px 20px 0px;
+    column-gap: 0px;
+}
+
+.menwear-img {
+    width: 100%;
+    height: 80%;
+    float: left;
+}
+
+.menwear-div {
+    padding: 30PX 35PX;
+    background: white;
+    border: 10px solid #ddd;
+}
+
+.login1,
+.signup1 {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.login,
+.signup {
+    position: fixed;
+    float: center;
+    left: 40%;
+    z-index: 1;
+    width: 20%;
+    top: 9%;
+    right: 20%;
+}
+
+.loginform,
+.signupform {
+    padding: 15px;
+    width: 120%;
+    background: rgba(59, 59, 59, 0.639);
+    border-radius: 8px;
+    box-sizing: border-box;
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.8);
+}
+
+.loginimg,
+.signupimg {
+    padding: 0px 0px;
+    width: 90px;
+    overflow: hidden;
+    bottom: 100%;
+    left: 40%;
+    right: 35%;
+    position: absolute;
+}
+
+.loginimg {
+    top: -16%;
+}
+
+.signupimg {
+    top: -9%;
+}
+
+.loginh4,
+.signuph4 {
+    margin: 17% 4% 3%;
+    width: 95%;
+    text-align: center;
+    font-size: 20px;
+}
+
+.loginform input[type=text],
+.loginform input[type=password],
+.signupform input[type=text],
+.signupform input[type=password],
+.signupform input[type=email] {
+    width: 97%;
+    height: 20%;
+    background: rgba(220, 220, 220, .5);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1), 0 2px 2px 0 rgba(0, 0, 0, 0.1);
+    font-style: italic;
+    font-family: cursive;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    margin: 0 auto;
+    overflow: hidden;
+    color: white;
+    padding: 5px 12px;
+}
+
+.loginform input[type=text]:hover,
+.loginform input[type=password]:hover,
+.signupform input[type=text]:hover,
+.signupform input[type=password]:hover,
+.signupform input[type=email]:hover,
+.loginform input[type=text]:focus,
+.loginform input[type=password]:focus,
+.signupform input[type=text]:focus,
+.signupform input[type=password]:focus,
+.signupform input[type=email]:focus {
+    background-color: transparent;
+    border-bottom: 2px gray solid;
+}
+
+.loginform input[type=button],
+.signupform input[type=button] {
+    padding: 8px 0px;
+    width: 30%;
+}
+
+.loginform input[type=submit],
+.signupform input[type=submit] {
+    padding: 8px 0px;
+    width: 75%;
+}
+
+.loginform input[type=button],
+.loginform input[type=submit],
+.signupform input[type=button],
+.signupform input[type=submit] {
+    font-size: 75%;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+    cursor: pointer;
+    background: black;
+}
+
+.signupp,
+.loginn {
+    float: right;
+    cursor: pointer;
+    width: 25%;
+    padding: 0px 0px 12px 0px;
+}
+
+.loginh4,
+.loginform input[type=button],
+.loginform input[type=submit],
+.signupp,
+.signuph4,
+.signupform input[type=button],
+.signupform input[type=submit],
+.loginn {
+    font-family: cursive;
+    font-variant: small-caps;
+    color: white;
+    letter-spacing: 2px;
+}
+
+span .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.signupp:hover,
+.loginn:hover,
+span .close:hover,
+span .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.error {
+    color: red;
+    float: right;
+}
+
+.navul {
+    list-style: none;
+    background-color: rgba(156, 164, 83, 0.619);
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    opacity: 0.7;
+}
+
+#navli {
+    display: inline-block;
+    margin: 3px 8px;
+    float: left;
+}
+
+.nava {
+    text-decoration: none;
+    color: white;
+    font-family: cursive;
+    font-variant: small-caps;
+    text-align: center;
+    padding: 14px 20px;
+    display: inline-block;
+}
+
+.img {
+    padding: 4px 10px;
+}
+
+#navli:hover,
+.dropdownmenu:hover {
+    background: rgba(156, 164, 83, 0.619);
+    border-radius: 50% 70%;
+}
+
+.dropdown {
+    margin: 2px;
+    padding: 2px;
+    display: none;
+    min-width: 160px;
+    position: absolute;
+    background: rgba(164, 106, 164, 0.5);
+    border-radius: 8px;
+}
+
+.dropdownmenu {
+    list-style: none;
+    padding: 14px 20px;
+}
+
+.dropdownmenua {
+    color: white;
+    font-family: cursive;
+    font-variant: small-caps;
+    text-align: left;
+    display: block;
+    text-decoration: none;
+    border-bottom: 1px solid gray;
+    line-height: 170%;
+}
+
+nav .navli4:hover .dropdown,
+nav .navli5:hover .dropdown,
+nav .navli6:hover .dropdown {
+    display: block;
+}
+
+.footer {
+    background-color: #efefef;
+    margin: 0px auto;
+    padding: 20px 0px;
+}
+
+@media (min-width: 1200px) {
+    .footer-div {
+        max-width: 1140px;
+    }
+}
+
+@media (min-width: 992px) {
+    .footer-div {
+        max-width: 960px;
+    }
+}
+
+@media (min-width: 768px) {
+    .footer-div {
+        max-width: 720px;
+    }
+}
+
+@media (min-width: 576px) {
+    .footer-div {
+        max-width: 540px;
+    }
+}
+
+.footer-div {
+    max-width: 1140px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: 80px;
+}
+
+.footer-row1 {
+    display: flex;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.footer-div1 {
+    padding-left: 80px;
+}
+
+.footer-ul {
+    padding-left: 0;
+    list-style: none;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.footer-h5 {
+    margin-bottom: .5rem;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.2;
+    color: inherit;
+    margin-top: 0;
+    font-size: 1.25rem;
+}
+
+.footer-ul-a {
+    text-decoration: none;
+}
+
+.footer-div2 {
+    position: relative;
+    width: 171%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: 129px;
+}
+
+.footer-address {
+    font-size: 80%;
+    margin: 0px;
+    color: #0f0f0f;
+    font-style: normal;
+    line-height: inherit;
+}
+
+.footer-div3 {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.footer-row2 {
+    text-align: center;
+}
+
+.footer-div4 {
+    flex: 0 0 auto;
+    width: auto;
+    max-width: none;
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+<nav><ul class="navul"><li id="navli" class="navli1" style="float: right;"><img src="img/login.png" id="img" class="img" onclick="openloginform()"></li><li id="navli" class="navli2" style="float: right;"><img src="img/signup.png" class="img" onclick="opensignupform()"></li><li id="navli" class="navli3"><a class="nava" href="project1.html">Home</a></li><li id="navli" class="navli4"><a class="nava" href="project2.html">Women</a><ul class="dropdown"><li class="dropdownmenu"><a href="project2.html" class="dropdownmenua">Unstitched</a></li><li class="dropdownmenu"><a href="project2.html" class="dropdownmenua">Pret </a></li><li class="dropdownmenu"><a href="project2.html" class="dropdownmenua">Lawn</a></li><li class="dropdownmenu"><a href="project2.html" class="dropdownmenua" style="border-bottom: none;">Embroided</a></li></ul></li><li id="navli" class="navli5"><a class="nava" href="project3.html">Men</a><ul class="dropdown"><li class="dropdownmenu"><a href="project3.html" class="dropdownmenua">Unstitched</a></li><li class="dropdownmenu"><a href="project3.html" class="dropdownmenua">Western</a></li><li class="dropdownmenu"><a href="project3.html" class="dropdownmenua" style="border-bottom: none;">Eastern </a></li></ul></li><li id="navli" class="navli6"><a class="nava" href="project4.html">Junior</a><ul class="dropdown"><li class="dropdownmenu"><a href="project4.html" class="dropdownmenua">Baby Boy </a></li><li class="dropdownmenu"><a href="project4.html" class="dropdownmenua">Baby Girl </a></li><li class="dropdownmenu"><a href="project4.html" class="dropdownmenua">Boy </a></li><li class="dropdownmenu"><a href="project4.html" class="dropdownmenua" style="border-bottom: none;">Girl</a></li></ul></li><li id="navli" class="navli8"><a class="nava" href="project5.html">Contact Us</a></li></ul></nav><main><div id="login1" class="login1"><div class="login" id="login"><form action="file:///C:/action_page.php" class="loginform" method="post" onsubmit="return LoginForm()"><span><a class="close" onclick="closeloginform()">&times;
+</a></span><img src="img/login.png" class="loginimg"><h4 class="loginh4">LOGIN FORM</h4><input type="text" size="20" name="Name" id="name" placeholder="Username"><span id="errorname" class="error"></span><br><br><input type="password" size="20" name="Pass" id="Password" placeholder="Password"><span id="errorpassword" class="error"></span><br><br><input type="submit" class="button1" value="LOG IN" name="LOGIN"><br><br><input type="button" class="button2" value="CLOSE" name="close" onclick="closeloginform()"><label class="signupp" onclick="signupform()">Sign Up?<label></form></div></div><div id="signup1" class="signup1"><div class="signup" id="signup"><form action="file:///C:/action_page.php" class="signupform" method="post" onsubmit="return SignupForm()"><span><a class="close" onclick="closesignupform()">&times;
+</a></span><img src="img/signup.png" class="signupimg"><h4 class="signuph4">SIGN UP FORM</h4><input type="text" size="20" name="fname" id="fname" placeholder="First Name" onkeyup="uppercase()"><span id="errorfname" class="error"></span><br><br><input type="text" size="20" name="lname" id="lname" placeholder="Last Name" onkeyup="uppercase()"><span id="errorlname" class="error"></span><br><br><input type="text" size="20" name="name" id="uname" placeholder="Username"><span id="erroruname" class="error"></span><br><br><input type="email" size="20" name="email" id="email" placeholder="Email"><span id="erroremail" class="error"></span><br><br><input type="password" size="20" name="Pass" id="Pass" placeholder="Password"><span id="errorPass" class="error"></span><br><br><input type="password" size="20" name="RePass" id="RePass" placeholder="Retype Password"><span id="errorRePass" class="error"></span><br><br><input type="submit" class="button1" value="SIGN UP" name="signup"><br><br><input type="button" class="button2" value="CLOSE" name="close" onclick="closesignupform()"><label class="loginn" onclick="loginform()">Log In? </label></form></div></div></main><footer class="footer"><div class="footer-div"><div class="footer-row1"><div class="footer-div1"><h5 class="footer-h5">Links</h5><ul class="footer-ul"><li><a class="footer-ul-a" href="project1.html">Home</a></li><li><a class="footer-ul-a" href="#">About</a></li><li><a class="footer-ul-a" href="#">Menu</a></li><li><a class="footer-ul-a" href="#">Contact</a></li></ul></div><div class="footer-div2"><h5 class="footer-h5">Our Address</h5><address class="footer-address">121,
+Clear Water Bay Road<br>Clear Water Bay,
+Kowloon<br>HONG KONG<br><i class="fa fa-phone fa-lg"></i>:+852 1234 5678<br><i class="fa fa-fax fa-lg"></i>:+852 8765 4321<br><i class="fa fa-envelope fa-lg"></i>: <a href="mailto:confusion@food.net">confusion@food.net</a></address></div><div class="footer-div3" style="align-self:center;"><div class="text-center"><a class="btn btn-social-icon btn-google" href="http://google.com/+"><i class="fa fa-google-plus fa-lg"></i></a><a class="btn btn-social-icon btn-facebook" href="http://www.facebook.com/profile.php?id="><i class="fa fa-facebook fa-lg"></i></a><a class="btn btn-social-icon btn-linkedin" href="http://www.linkedin.com/in/"><i class="fa fa-linkedin fa-lg"></i></a><a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i class="fa fa-twitter fa-lg"></i></a><a class="btn btn-social-icon btn-youtube" href="http://youtube.com/"><i class="fa fa-youtube fa-lg"></i></a><a class="btn btn-social-icon btn-envelope" href="mailto:"><i class="fa fa-envelope fa-lg"></i></a></div></div></div><div class="footer-row2"><div class="footer-div4"><p>© Copyright 2018 Ristorante Con Fusion</p></div></div></div></footer>
